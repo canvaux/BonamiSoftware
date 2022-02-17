@@ -1,0 +1,110 @@
+.career_banner {
+   background-image: url(../images/career-bg.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.career_banner .banner_line_div h3::after {
+   left: -10px;
+   background-color: var(--lightBlue);
+}
+
+.our_values {
+   background-image: none;
+}
+
+.bew_a_part_bonami h1 {
+   font-size: 43px;
+   font-weight: 700;
+   color: var(--darkSm);
+}
+
+.career_card_div {
+   width: 300px;
+   background-color: var(--lightBlue);
+   border-radius: 8px;
+}
+
+.career_card_div_two {
+   background-color: var(--mainColor);
+   box-shadow: 0 0 30px var(--lightGray);
+}
+
+.icon_div {
+   width: 80px;
+   height: 80px;
+   background-color: var(--mainColor);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.icon_div img {
+   width: auto;
+   height: 50px;
+}
+
+.your_info_div {
+   width: 100%;
+   height: 500px;
+   background-color: var(--mainColor);
+}
+
+.your_info_inner_div {
+   width: 100%;
+   border-radius: 12px;
+   background-color: var(--lightBlue);
+}
+
+.your_info_content ul li {
+   color: var(--lightGraySm);
+   font-size: 20px;
+   margin-bottom: 0.9rem;
+}
+
+.your_info_content h4 {
+   color: var(--lightBlue);
+}
+
+.your_info_content p {
+   color: var(--lightGraySm);
+   font-size: 20px;
+}
+
+.accordion_head {
+   border-radius: 8px;
+   background-color: var(--mainColor) !important;
+   padding: 1rem 3rem;
+   font-size: 20px;
+   color: var(--lightGraySm) !important;
+   font-weight: 600;
+   box-shadow: 0 0 10px var(--lightGray) !important;
+}
+
+.accordion-item {
+   border: none;
+   margin-bottom: 0.5rem;
+}
+
+.accordion-body p {
+   font-size: 0.9rem;
+   color: var(--lightGraySm);
+}
+
+.accordion-body h3 {
+   font-size: 1rem;
+}
+
+.accordion-body ul li {
+   color: var(--lightGraySm);
+   font-size: 0.8rem;
+}
+
+.accordion-button::after {
+   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+   transform: scale(0.7) !important;
+}
+.accordion-button:not(.collapsed)::after {
+   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}

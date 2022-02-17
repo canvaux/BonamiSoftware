@@ -1,0 +1,502 @@
+/* banner_section */
+.banner_section {
+   background: linear-gradient(
+      83.04deg,
+      rgba(18, 207, 237, 0.2) 1.06%,
+      rgba(255, 255, 255, 0) 90.32%
+   );
+}
+.banner_section h1 {
+   color: var(--lightBlue);
+   font-size: 1.3rem;
+   font-weight: 700;
+}
+.banner_section .banner_line_div h3,
+.banner_line_div_second h3 {
+   font-size: 70px;
+   font-weight: 700;
+   position: relative;
+}
+
+.banner_section .banner_line_div h3::after {
+   content: '';
+   position: absolute;
+   left: -10px;
+   top: 0;
+   width: 5px;
+   height: 100%;
+   background-color: var(--dark);
+   border-radius: 30px;
+}
+
+.banner_line_div_second h3::after {
+   content: '';
+   position: absolute;
+   left: -10px;
+   top: 0;
+   width: 5px;
+   height: 100%;
+   background-color: var(--lightBlue);
+   border-radius: 30px;
+}
+.banner_line_div span {
+   color: var(--lightBlue);
+}
+.banner_section p {
+   font-size: 20px;
+   text-align: justify;
+}
+.cards_div {
+   width: 100%;
+   border-radius: 8px;
+   background-color: var(--mainColor);
+   box-shadow: 0 0 20px var(--lightGray);
+   position: relative;
+}
+
+.cards_div h3 {
+   font-size: 2rem;
+   color: var(--headingCL);
+}
+
+.cards_div p {
+   font-size: 13px;
+   line-height: 20px;
+}
+
+.line_div {
+   border: 2px solid var(--headingCL);
+   max-width: 80px;
+   margin: auto;
+}
+
+.card_active {
+   background-color: var(--lightBlue);
+}
+.card_active p {
+   color: var(--mainColor);
+}
+.card_active h3 {
+   color: var(--mainColor);
+}
+.card_active .line_div {
+   border: 2px solid var(--mainColor);
+}
+
+.cards_section .row {
+   padding: 50px 0;
+   border-radius: 30px;
+   margin-top: -100px;
+   background-color: var(--mainColor);
+}
+
+.arrow_div {
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid var(--mainColor);
+   border-radius: 50%;
+   background-color: var(--lightBlue);
+   bottom: -40px;
+   left: 50%;
+   transform: translate(-50%);
+}
+/* banner_section */
+
+/* Wellcome to Virtu Company */
+.virtu_compnay h1 {
+   font-size: 40px;
+   font-weight: 600;
+   color: var(--lightBlue);
+}
+.virtu_compnay h3 {
+   font-weight: 800;
+   font-size: 50px;
+   line-height: 86px;
+   color: var(--darkSm);
+}
+.compnay_icons_div {
+   border-top: 1px solid var(--borderCl);
+   border-bottom: 1px solid var(--borderCl);
+}
+.compnay_icons_div h4 {
+   font-size: 25px;
+   color: var(--darkSm);
+   font-weight: 700;
+}
+.compnay_icons_div img {
+   width: auto;
+   height: 70px;
+}
+.virtu_compnay p {
+   font-size: 25px;
+   line-height: 44px;
+   color: var(--smGray);
+   text-align: justify;
+}
+/* Wellcome to Virtu Company */
+
+/* OUR SERVICES */
+.our_service_div {
+   position: relative;
+}
+.our_serive_bg_div {
+   background-image: url(../images/card_bg.png);
+   background-position: center;
+   background-size: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   opacity: 0.2;
+}
+.service_heading_div h3 {
+   font-size: 35px;
+   font-weight: 700;
+   color: var(--darkSm);
+}
+.service_heading_div h2 {
+   font-size: 43px;
+   line-height: 62px;
+   font-weight: 700;
+   color: var(--darkSm);
+}
+.service_card_div {
+   border-radius: 20px;
+   width: 100%;
+   background-color: var(--mainColor);
+   box-shadow: 0 0 40px var(--lightGray);
+   transition: all 0.3s ease;
+   height: 100%;
+   display: grid;
+   place-content: center;
+}
+
+.service_card_active {
+   background-color: var(--lightBlue);
+}
+
+.service_card_active p,
+.service_card_active h3 {
+   color: var(--mainColor) !important;
+}
+
+.service_card_active .service_icon_div {
+   background-color: var(--mainColor);
+}
+
+.service_icon_div {
+   padding: 1rem;
+   background-color: var(--smLight);
+   border-radius: 50%;
+}
+
+.service_icon_div img {
+   width: auto;
+   height: 50px;
+}
+
+.service_card_div h3 {
+   font-size: 30px;
+   font-weight: 700;
+   color: var(--darkSm);
+}
+
+.service_card_div p {
+   font-size: 18px;
+   line-height: 31px;
+   color: var(--smGray);
+}
+/* OUR SERVICES */
+
+/* slider */
+.slick-slide {
+   margin: 0 1rem;
+}
+.slick-next:before,
+.slick-prev:before {
+   font-size: 40px !important;
+}
+
+.slick-next,
+.slick-prev {
+   top: 31% !important;
+}
+.slick-prev {
+   left: -37px !important;
+}
+.slick-slide {
+   padding: 2rem 0;
+}
+/* slider */
+
+/* About Us Company */
+.aboutUs_call_div p {
+   font-size: 0.9rem;
+}
+.aboutUs_call_div h5 {
+   font-size: 1.5rem;
+   color: var(--darkSm);
+   font-weight: 700;
+}
+
+.about_us_compny_para {
+   position: relative;
+   margin-left: 1rem;
+}
+
+.about_us_compny_para::after {
+   content: '';
+   position: absolute;
+   left: -10px;
+   top: 0;
+   height: 100%;
+   width: 4px;
+   background-color: var(--lightBlue);
+}
+/* About Us Company */
+
+/*  MEET OUR TEAM */
+.meet_out_team {
+   position: relative;
+}
+.meet_inner {
+   position: absolute;
+   top: 0;
+   left: 0;
+   content: '';
+   width: 100%;
+   height: 100%;
+   background-image: url(../images/meet.png);
+   background-position: center;
+   background-size: cover;
+   z-index: -1;
+   opacity: 0.4;
+}
+.meet_out_team h3 {
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+.meet_out_team h2 {
+   font-size: 40px;
+   font-weight: 700;
+   color: var(--darkSm);
+}
+.user_profile_card {
+   width: 100%;
+   border-radius: 12px;
+   background-color: var(--mainColor);
+   box-shadow: 0 0 40px var(--lightGray);
+   display: grid;
+   place-content: center;
+}
+.user_profile_card h3 {
+   font-size: 25px;
+   font-weight: 700;
+   color: var(--darkSm);
+}
+.user_profile_card h4 {
+   color: var(--lightBlue);
+}
+.user_profile_inner_div {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 1px solid var(--lightBlue);
+}
+.user_profile_inner_div img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+/*  MEET OUR TEAM */
+
+/* Delivering Intelligent Software Solutions for Companies. */
+.delivering_div {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+      url(../images/blog-bg-1.png);
+   background-position: center;
+   background-size: cover;
+}
+.delivering_div h3 {
+   font-size: 40px;
+   line-height: 58px;
+   font-weight: 700;
+}
+.delivering_div ul li {
+   font-size: 20px;
+   margin-bottom: 0.8rem;
+}
+.delivering_div a {
+   font-size: 22px;
+   color: var(--lightBlue);
+   text-decoration: none;
+}
+.user_div {
+   position: relative;
+}
+.user_div img {
+   position: absolute;
+   bottom: -47px;
+}
+/* Delivering Intelligent Software Solutions for Companies. */
+
+/* Why BonAmi ?  */
+.contact_form_div {
+   background-image: url(../images/why-img-1.png);
+   background-position: center;
+   background-size: cover;
+   padding: 2rem;
+}
+.contect_fisrt_div {
+   display: grid;
+   place-content: center;
+}
+.contect_fisrt_div h2 {
+   font-size: 40px;
+   font-weight: 600;
+   color: var(--darkSm);
+}
+.contect_fisrt_div p {
+   font-size: 22px;
+   color: var(--darkSm);
+   font-weight: 700;
+}
+.contect_fisrt_div input,
+.contect_fisrt_div select {
+   width: 100%;
+   height: 75px;
+   padding: 1rem;
+   background-color: var(--inputCl);
+   border: none;
+   outline: none;
+   margin-bottom: 1rem;
+   color: var(--smGray);
+}
+.why-bonami-div {
+   background-color: var(--mainColor);
+   box-shadow: 0 0 40px var(--lightGray);
+}
+.contact_form_div h3 {
+   font-size: 73px;
+   font-weight: 600;
+}
+.contact_form_div p {
+   font-size: 30px;
+}
+.contact_form_div span {
+   font-size: 0.9rem;
+}
+/* Why BonAmi ?  */
+
+/* What our customers say about */
+.what_out_customers {
+   background-image: url(../images/testimonial.png);
+   background-position: center;
+   background-size: cover;
+}
+.user_testimonial_card {
+   position: relative;
+}
+.testimonial_arrow {
+   width: 0;
+   height: 0;
+   border-left: 25px solid transparent;
+   border-right: 25px solid transparent;
+   border-top: 50px solid rgb(255, 255, 255);
+   position: absolute;
+   bottom: -50px;
+   left: 50%;
+   transform: translate(-50%);
+}
+.what_out_customers h2 {
+   font-size: 25px;
+}
+.what_out_customers h1 {
+   font-size: 40px;
+   font-weight: 700;
+}
+.user_testimonial_card {
+   width: 100%;
+   border-radius: 0 0 10px 10px;
+   background-color: var(--mainColor);
+   border-top: 6px solid var(--lightBlue);
+}
+.user_testimonial_card {
+   padding: 80px 40px;
+}
+.user_testimonial_card h3 {
+   font-size: 40px;
+   color: var(--lightBlue);
+}
+.user_testimonial_card p {
+   font-size: 14px;
+   color: var(--darkSm);
+   font-weight: 600;
+}
+.user_testimonial_card span {
+   font-size: 18px;
+   line-height: 26px;
+   color: var(--lightGraySm);
+}
+.user_info {
+   margin-top: 6rem;
+}
+.quote {
+   position: absolute;
+   left: 50px;
+   top: 50px;
+}
+.quote-1 {
+   position: absolute;
+   bottom: 50px;
+   right: 50px;
+}
+/* What our customers say about */
+
+/* CLIENTS & PARTNERS */
+.clients_partners {
+   background-color: var(--lightblueCl);
+}
+.clients_partners h4 {
+   font-size: 25px;
+   color: var(--darkSm);
+   font-weight: 700;
+}
+.clients_partners h1 {
+   font-size: 40px;
+   font-weight: 700;
+}
+/* CLIENTS & PARTNERS */
+
+/* newsletter */
+.newsletter .row {
+   background-color: var(--mainColor);
+   margin-top: -120px;
+   position: relative;
+}
+.newsletter h1 {
+   font-size: 35px;
+   font-weight: 700;
+   color: var(--darkSm);
+}
+
+.margin_footer {
+   margin-top: -170px;
+   padding-top: 100px;
+}
+.newsletter input {
+   width: 70%;
+   height: 60px;
+   padding: 1rem;
+   background-color: var(--lightblueCl);
+   border-radius: 20px;
+   border: none;
+   outline: none;
+}
+/* newsletter */

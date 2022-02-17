@@ -1,0 +1,74 @@
+.service_header {
+   background-image: url(../images/service-bg.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.service_header .banner_line_div h3::after {
+   left: -10px;
+   background-color: var(--lightBlue);
+}
+
+.valuble_heading h3 {
+   color: var(--lightBlue);
+}
+
+.valuble_heading h4 {
+   font-size: 2.5rem;
+   font-weight: 700;
+}
+
+/* PROFESSIONAL SOLUTIONS */
+.professional_content_div h2 {
+   font-size: 30px;
+   color: var(--darkSm);
+   font-weight: 700;
+}
+.professional_content_div p {
+   font-size: 20px;
+   color: var(--lightGraySm);
+}
+/* PROFESSIONAL SOLUTIONS */
+
+/* BEST PLACE TO WORK */
+.best_place_to_work {
+   background-image: url(../images/how-work.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.best_place_content h3 {
+   color: var(--lightBlue);
+   font-size: 25px;
+   font-weight: 700;
+}
+.best_place_content h1 {
+   font-size: 43px;
+   font-weight: 700;
+}
+/* BEST PLACE TO WORK */
+
+/* CARRY ON PLANNING */
+.carry_inside_div {
+   width: 100%;
+   border-radius: 8px;
+   box-shadow: 0 0 10px var(--lightGraySm);
+   margin-top: -280px;
+   background-color: var(--mainColor);
+   position: relative;
+}
+.carry_inside_div h3 {
+   font-size: 25px;
+   font-weight: 700;
+   color: var(--lightBlue);
+}
+.carry_inside_div h1 {
+   font-size: 33px;
+   font-weight: 700;
+   color: var(--darkSm);
+}
+.carry_inside_div h5 {
+   color: var(--lightBlue);
+   font-size: 18px;
+}
+/* CARRY ON PLANNING */

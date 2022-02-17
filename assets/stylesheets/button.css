@@ -1,0 +1,15 @@
+.nav_button {
+   padding: 1rem 2rem;
+   color: var(--mainColor);
+   border-radius: 14px;
+   border: none;
+   cursor: pointer;
+   background-color: var(--lightBlue);
+}
+.read_more_button {
+   padding: 1rem 2.5rem;
+   color: var(--lightBlue);
+   border-radius: 14px;
+   border: 2px solid var(--mainColor);
+   background-color: transparent;
+}

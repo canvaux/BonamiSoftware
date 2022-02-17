@@ -1,0 +1,29 @@
+footer {
+   background-image: url(../images/footer-bg.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.footer_first p {
+   font-size: 20px;
+   color: var(--mainColor);
+   line-height: 35px;
+}
+
+.foote_second h3 {
+   color: var(--lightBlue);
+}
+
+.foote_second ul li a {
+   color: var(--mainColor);
+   font-size: 20px;
+   text-decoration: none;
+}
+
+.foote_second ul li {
+   margin-bottom: 1rem;
+}
+
+.second_footer {
+   background-color: var(--dark);
+}

@@ -1,0 +1,41 @@
+/* header */
+.header_div {
+   background-color: var(--dark);
+}
+.navbar_div {
+   background-color: var(--mainColor);
+   box-shadow: 10px 0 20px var(--smGray);
+}
+.navbar_div .nav-item a {
+   color: var(--dark);
+   font-weight: 500;
+}
+.navbar_div .nav-item {
+   padding: 0 0.6rem;
+}
+.nav-item_active {
+   border-bottom: 2px solid var(--lightBlue);
+}
+.search_div {
+   width: 200px;
+   height: 50px;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   background-color: var(--lightGray);
+}
+.search_div input {
+   width: 100%;
+   height: 100%;
+   border: none;
+   outline: none;
+   padding: 1.5rem;
+   background-color: transparent;
+}
+.search_div img {
+   margin: 0 1rem;
+   cursor: pointer;
+}
+/* header */
