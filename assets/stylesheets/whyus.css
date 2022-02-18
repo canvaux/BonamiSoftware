@@ -1,0 +1,24 @@
+.whyBanner{
+    background: url('../images/whyus.png') ;
+}
+.whyBanner  .banner_line_div h3::after {
+    left: -10px;
+    background-color: var(--mainColor);
+ }
+
+ .Leader{
+     background:  url('../images/leader.png');
+     height: 60vh;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .why-row{
+     margin-top: -170px !important;
+     background: transparent !important;
+ }
+
+ .why-row  .cards_div{
+     box-shadow: unset
+ }

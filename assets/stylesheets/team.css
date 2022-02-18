@@ -12,3 +12,47 @@
 .service_card_div h4 {
    font-size: 22px;
 }
+
+/* progress bar */
+.progress{
+   background: #F4F4F4;
+   width: 100%;
+   height: 15px;
+   border-radius: 20px;
+
+}
+
+
+.parogress-bar-color{
+   background: linear-gradient(90deg, #05D4F5 -1.87%, #74ECFF 92.62%);
+   height: 100%;
+   border-radius: 20px;
+   animation:  baranimation 3s linear ;
+   width: 100%;
+   position: relative;
+}
+
+.progress_path{
+   height: 100%;
+   position: relative;
+}
+.progress-value{
+   background: linear-gradient(90deg, #05D4F5 -1.87%, #74ECFF 92.62%);
+   animation:  baranimation 3s linear 
+}
+
+
+@keyframes  baranimation{
+   from{
+      width: 0%;
+   }
+   to {
+      width: 100%;
+   }
+   
+}
+
+.ready{
+   background-color: #F7F8FF;
+}
+/* end */
