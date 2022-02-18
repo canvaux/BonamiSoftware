@@ -1,24 +1,105 @@
-.whyBanner{
-    background: url('../images/whyus.png') ;
+.whyBanner {
+   background: url('../images/whyus.png');
 }
-.whyBanner  .banner_line_div h3::after {
-    left: -10px;
-    background-color: var(--mainColor);
- }
+.whyBanner .banner_line_div h3::after {
+   left: -10px;
+   background-color: var(--lightBlue);
+}
 
- .Leader{
-     background:  url('../images/leader.png');
-     height: 60vh;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
- }
+.Leader {
+   background: url('../images/leader.png');
+   height: 60vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
 
- .why-row{
-     margin-top: -170px !important;
-     background: transparent !important;
- }
+.why-row {
+   margin-top: -170px !important;
+   background: transparent !important;
+}
 
- .why-row  .cards_div{
-     box-shadow: unset
- }
+.why-row .cards_div {
+   box-shadow: unset;
+}
+
+/* SOFTWARE RE INFLICTING MAGIC */
+.software_re_inflicting_div {
+   background-image: url(../images/we-ar.png);
+   background-position: center;
+   background-size: cover;
+}
+.software_re_content p {
+   font-size: 20px;
+}
+.service_card_div {
+   box-shadow: none !important;
+}
+
+.chart_div {
+   width: 100%;
+   box-shadow: 0 0 20px var(--lightGray);
+   border-radius: 15px;
+   background-color: var(--mainColor);
+}
+
+.pie-chart {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   background: radial-gradient(circle closest-side, transparent 66%, white 0),
+      conic-gradient(#05bbf5 0, #05bbf5 33.4%, #05f51d 0, #05f51d 66.8%, #7d05f5 0, #7d05f5 100%);
+   position: relative;
+   min-height: 350px;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pi-chart_inner {
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   background-color: var(--mainColor);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.pi-chart_inner h1 {
+   font-size: 28px;
+   font-weight: 500;
+   color: var(--darkSm);
+}
+.chart_sm_div {
+   width: 30px;
+   height: 30px;
+   background-color: #7d05f5;
+   border-radius: 50%;
+}
+.second_chart {
+   background-color: #05bbf5;
+}
+
+.thred_chart {
+   background-color: #05f51d;
+}
+/* SOFTWARE RE INFLICTING MAGIC */
+
+/* We Keep You First */
+.we_keep_card {
+   width: 100%;
+   background-color: var(--mainColor);
+   box-shadow: 0 0 30px var(--lightGray);
+   border-radius: 15px;
+}
+.we_keep_card h5 {
+   font-size: 30px;
+   font-weight: 600;
+}
+.we_keep_card p {
+   color: var(--lightGraySm);
+   font-size: 20px;
+}
+/* We Keep You First */

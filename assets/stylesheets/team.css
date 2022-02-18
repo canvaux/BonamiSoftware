@@ -14,45 +14,76 @@
 }
 
 /* progress bar */
-.progress{
-   background: #F4F4F4;
+.progress {
+   background: #f4f4f4;
    width: 100%;
    height: 15px;
    border-radius: 20px;
-
+   overflow: visible;
 }
 
-
-.parogress-bar-color{
-   background: linear-gradient(90deg, #05D4F5 -1.87%, #74ECFF 92.62%);
+.parogress-bar-color {
+   background: linear-gradient(90deg, #05d4f5 -1.87%, #74ecff 92.62%);
    height: 100%;
    border-radius: 20px;
-   animation:  baranimation 3s linear ;
+   animation: baranimation 3s linear;
    width: 100%;
    position: relative;
 }
 
-.progress_path{
+.progress_value_div {
+   width: 30px;
+   height: 30px;
+   border-right: 2px solid var(--lightBlue);
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+.progress_value_content_div {
+   position: absolute;
+   width: 50px;
+   height: 35px;
+   border-radius: 15px;
+   background-color: var(--lightBlue);
+   top: -55px;
+   margin-left: 0.3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--mainColor);
+}
+
+.triangle-down {
+   width: 0;
+   height: 0;
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   border-top: 15px solid var(--lightBlue);
+   position: absolute;
+   top: -22px;
+   left: 19px;
+}
+
+.progress_path {
    height: 100%;
    position: relative;
 }
-.progress-value{
-   background: linear-gradient(90deg, #05D4F5 -1.87%, #74ECFF 92.62%);
-   animation:  baranimation 3s linear 
+.progress-value {
+   background: linear-gradient(90deg, #05d4f5 -1.87%, #74ecff 92.62%);
+   animation: baranimation 3s linear;
 }
 
-
-@keyframes  baranimation{
-   from{
+@keyframes baranimation {
+   from {
       width: 0%;
    }
    to {
       width: 100%;
    }
-   
 }
 
-.ready{
-   background-color: #F7F8FF;
+.ready {
+   background-color: #f7f8ff;
 }
 /* end */

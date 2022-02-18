@@ -1,0 +1,21 @@
+.contact_banner {
+   background-image: url(../images/contact-bd.png);
+}
+
+.contact_banner .banner_line_div h3::after {
+   left: -10px;
+   background-color: var(--lightBlue);
+}
+
+.contact_cards p {
+   font-size: 20px;
+   line-height: 40px;
+}
+
+.why_bonami {
+   position: relative;
+}
+.map_section iframe {
+   margin-top: -150px;
+   width: 100%;
+}
