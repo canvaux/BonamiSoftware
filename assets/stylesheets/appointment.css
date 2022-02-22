@@ -1,0 +1,37 @@
+.appoinment_div {
+   background-position: center;
+   background-size: cover;
+   background-image: url(../images/app-bg.png);
+}
+
+.we_answer_div {
+   width: 100%;
+   height: 100%;
+   background-color: var(--mainColor);
+   border-radius: 8px;
+}
+
+.we_answer_div h3 {
+   font-size: 20px;
+   color: var(--lightBlue);
+   margin-bottom: 0;
+}
+
+.we_answer_div h2 {
+   font-size: 25px;
+   font-weight: 600;
+   line-height: normal;
+   margin-bottom: 0;
+}
+
+.we_answer_div button {
+   width: 100%;
+}
+
+.we_answer_div .input_div {
+   background-color: var(--gray);
+}
+
+.input_text_div {
+   height: 200px !important;
+}
