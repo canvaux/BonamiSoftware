@@ -341,7 +341,7 @@
    position: relative;
 }
 .user_div img {
-  margin-top:-150px;
+   margin-top: -150px;
 }
 /* Delivering Intelligent Software Solutions for Companies. */
 
@@ -351,6 +351,8 @@
    background-position: center;
    background-size: cover;
    padding: 2rem;
+   display: grid;
+   place-content: center;
 }
 .contect_fisrt_div {
    display: grid;
