@@ -341,8 +341,7 @@
    position: relative;
 }
 .user_div img {
-   position: absolute;
-   bottom: -47px;
+  margin-top:-150px;
 }
 /* Delivering Intelligent Software Solutions for Companies. */
 

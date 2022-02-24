@@ -12,6 +12,7 @@ html,
 body {
    /* font-family: 'Nunito', sans-serif; */
    font-family: 'Jost', sans-serif;
+   overflow-x: hidden;;
 }
 /* Reset */
 
@@ -112,4 +113,7 @@ body {
    font-size: 133px;
 }
 
+.align-center {
+   align-items: center;
+}
 /* end */
