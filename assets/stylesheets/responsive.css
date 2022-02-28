@@ -64,24 +64,6 @@
    }
 }
 
-@media (max-width: 1300px) {
-   .service_heading_div h2 {
-      line-height: normal;
-   }
-   .user_div img {
-      margin-top: -87px;
-   }
-   .lap_image {
-      display: none;
-   }
-}
-
-@media (max-width: 1200px) {
-   .cards_section .row {
-      margin-top: 0;
-   }
-}
-
 @media (max-width: 1400px) {
    /* font */
 
@@ -153,6 +135,24 @@
    }
 }
 
+@media (max-width: 1300px) {
+   .service_heading_div h2 {
+      line-height: normal;
+   }
+   .user_div img {
+      margin-top: -51px;
+   }
+   .lap_image {
+      display: none;
+   }
+}
+
+@media (max-width: 1200px) {
+   .cards_section .row {
+      margin-top: 0;
+   }
+}
+
 @media (max-width: 1200px) {
    .banner_section .banner_line_div h3,
    .banner_line_div_second h3 {
@@ -208,6 +208,12 @@
    }
 }
 
+@media (max-width: 1150px) {
+   .navbar_cente_div {
+      display: none;
+   }
+}
+
 @media (max-width: 980px) {
    /* font */
    /* font - 10px in 992px mostly  big content */
@@ -229,5 +235,99 @@
    }
    .foote_second h5 {
       font-size: 14px;
+   }
+}
+
+@media (max-width: 700px) {
+   .form_newsLetter_div {
+      display: block !important;
+      text-align: center;
+   }
+   .newsletter .row {
+      margin-top: -40px;
+   }
+   .newsletter input {
+      width: 100%;
+   }
+}
+
+@media (max-width: 680px) {
+   .aboutUs_call_div h5 {
+      font-size: 1rem;
+   }
+}
+
+@media (max-width: 550px) {
+   .side_padding {
+      padding: 0 30px;
+   }
+   .banner_section .banner_line_div h3,
+   .banner_line_div_second h3 {
+      font-size: 36px;
+   }
+   .banner_section p {
+      font-size: 15px;
+   }
+   .bannerSlider_image {
+      width: 60%;
+   }
+   .virtu_compnay h3 {
+      font-size: 26px;
+      line-height: normal;
+   }
+   .service_heading_div h2 {
+      font-size: 22px;
+   }
+   .service_card_div p {
+      font-size: 15px;
+   }
+   .meet_out_team h2 {
+      font-size: 25px;
+   }
+   .delivering_div h3 {
+      font-size: 24px;
+   }
+   .delivering_div ul li {
+      font-size: 17px;
+   }
+   .contact_form_div h3 {
+      font-size: 29px;
+   }
+   .contact_form_div p {
+      font-size: 17px;
+   }
+   .what_out_customers h1 {
+      font-size: 25px;
+   }
+   .user_testimonial_card h3 {
+      font-size: 25px;
+   }
+   .clients_partners h1 {
+      font-size: 26px;
+      font-weight: 700;
+   }
+   .newsletter h1 {
+      font-size: 25px;
+   }
+   .second_footer p {
+      font-size: 12px;
+   }
+   .navbar_icons_div {
+      display: block !important;
+      text-align: center;
+   }
+   .Successful_icons_div {
+      display: block !important;
+      align-items: center !important;
+      text-align: center !important;
+   }
+   .contect_fisrt_div h2 {
+      font-size: 32px;
+   }
+   .slick-next {
+      right: -18px !important;
+   }
+   .user_testimonial_card span {
+      font-size: 15px;
    }
 }
