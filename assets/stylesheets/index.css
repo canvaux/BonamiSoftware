@@ -100,7 +100,7 @@
    border: 1px solid var(--mainColor);
    border-radius: 50%;
    background-color: var(--lightBlue);
-   bottom: -40px;
+   bottom: -50px;
    left: 50%;
    transform: translate(-50%);
 }
