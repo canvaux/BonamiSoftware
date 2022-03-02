@@ -8,10 +8,14 @@
 
 .Leader {
    background: url('../images/leader.png');
-   height: 60vh;
+   /* height: 60vh; */
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+}
+
+.Leader_padding {
+   padding: 5rem 0;
 }
 
 .why-row {

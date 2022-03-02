@@ -11,6 +11,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Stylesheet Link -->
     <link rel="stylesheet" href="./assets/stylesheets/index.css">
     <link rel="stylesheet" href="./assets/stylesheets/navbar.css">
@@ -29,30 +33,31 @@
 
     <!-- header -->
     <header>
-        <div class="header_div side_padding">
+        <div class="header_div top_bar side_padding">
             <div class="container-fluid">
-                <div class="row py-3">
-                    <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-between">
+                <div class="row py-3 justify-content-center">
+                    <div
+                        class="col-12 col-sm-12 col-md-6 col-lg-6  col-xl-3  col-xxl-3 d-flex justify-content-xl-between justify-content-lg-start justify-content-center">
                         <img src="./assets/icons/location.svg" alt="">
 
-                        <div class="d-flex">
+                        <div class="d-flex ms-md-3 ms-2 ms-md-0">
                             <img src="./assets/icons/clock.svg" alt="">
                             <p class="mb-0 ms-2 text-white">9.00 to 7.00 (Mon_Sat)</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6"></div>
-                    <div class="col-12 col-sm-12 col-md-3">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="d-flex">
+                    <div class="col-12 col-sm-12 col-md-2  col-lg-1 col-xl-4  col-xxl-6  navbar_cente_div"></div>
+                    <div class="col-10 col-md-6  col-lg-5 col-xl-5  col-xxl-3 mt-3 mt-md-0">
+                        <div class="d-flex align-items-center justify-content-between navbar_icons_div">
+                            <div class="d-flex justify-content-center justify-content-md-start">
                                 <img src="./assets/icons/filp.svg" alt="">
                                 <p class="mb-0 text-white ms-2">demo@email.com</p>
                             </div>
 
-                            <p class="mb-0 ms-3 text-white">Connect Us</p>
+                            <p class="mb-0 ms-3 text-white my-2 my-md-0 mb-2 mb-md-0">Connect Us</p>
 
-                            <img src="./assets/icons/facebook.svg" alt="">
+                            <img src="./assets/icons/facebook.svg" class="ms-3 ms-md-0" alt="">
 
-                            <img src="./assets/icons/twitter.svg" alt="">
+                            <img src="./assets/icons/twitter.svg" class="mx-3 mx-md-0" alt="">
 
                             <img src="./assets/icons/insta.svg" alt="">
                         </div>
@@ -70,18 +75,18 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fas fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item ">
+                            <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ">
                                 <a class="nav-link" href="./about.html">About Us</a>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item ">
                                 <a class="nav-link" href="./career.html">Career</a>
                             </li>
 
@@ -101,7 +106,7 @@
                                 <a class="nav-link" href="./contact.html">Contact</a>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item lp-none">
                                 <div class="search_div">
                                     <input type="search" placeholder="search">
 
@@ -109,7 +114,7 @@
                                 </div>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item lp-none">
                                 <button class="nav_button">Appointment</button>
                             </li>
                         </ul>
@@ -118,12 +123,12 @@
                 </div>
             </nav>
         </div>
+
     </header>
     <!-- header -->
 
     <!-- main -->
     <main>
-
         <!-- slider section -->
         <section class="banner_section team_banner">
             <div class="container-fluid py-5">
@@ -134,67 +139,21 @@
                                 <div class="row d-flex align-items-center">
                                     <div class="col-12 col-sm-12 col-md-1">
                                     </div>
-                                    <div class="col-12 col-sm-12 col-md-5 ps-5">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 text-center text-md-start">
                                         <h1>EXPLORE. CREATE. INSPIRE</h1>
 
-                                        <div class="banner_line_div mt-4">
+                                        <div class="banner_line_div mt-3 mt-md-4">
                                             <h3 class="text-white">Team</h3>
                                         </div>
 
-                                        <div class="about_ban_div mt-5">
+                                        <div class="about_ban_div mt-3 mt-md-4">
                                             <h1>Home / <span>Team</span></h1>
                                         </div>
 
                                     </div>
                                     <div
-                                        class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
-                                        <img src="./assets/images/team.png" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="row d-flex align-items-center">
-                                    <div class="col-12 col-sm-12 col-md-1">
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-5 ps-5">
-                                        <h1>EXPLORE. CREATE. INSPIRE</h1>
-
-                                        <div class="banner_line_div mt-4">
-                                            <h3 class="text-white">Team</h3>
-                                        </div>
-
-                                        <div class="about_ban_div mt-5">
-                                            <h1>Home / <span>Team</span></h1>
-                                        </div>
-
-                                    </div>
-                                    <div
-                                        class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
-                                        <img src="./assets/images/team.png" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="row d-flex align-items-center">
-                                    <div class="col-12 col-sm-12 col-md-1">
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-5 ps-5">
-                                        <h1>EXPLORE. CREATE. INSPIRE</h1>
-
-                                        <div class="banner_line_div mt-4">
-                                            <h3 class="text-white">Team</h3>
-                                        </div>
-
-                                        <div class="about_ban_div mt-5">
-                                            <h1>Home / <span>Team</span></h1>
-                                        </div>
-
-                                    </div>
-                                    <div
-                                        class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
-                                        <img src="./assets/images/team.png" class="img-fluid" alt="">
+                                        class="col-12 col-sm-12  col-md-5  col-lg-5 col-xl-6 d-flex justify-content-center mt-5 mt-lg-0">
+                                        <img src="./assets/images/team.png" class="img-fluid bannerSlider_image" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -220,7 +179,6 @@
         </section>
         <!-- slider section -->
 
-
         <!-- MEET OUR TEAM -->
         <section class="meet_out_team side_padding">
             <div class="meet_inner"></div>
@@ -235,7 +193,7 @@
                 </div>
 
                 <div class="row pt-5 pb-5 ">
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                         <div class="user_profile_card py-5 px-3 text-center">
                             <div class="user_profile_inner_div">
                                 <img src="./assets/images/Ellipse 115.png" alt="">
@@ -245,7 +203,7 @@
                             <h4>Founder</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-4 mt-md-0">
                         <div class="user_profile_card py-5 px-3 text-center">
                             <div class="user_profile_inner_div">
                                 <img src="./assets/images/girl.png" alt="">
@@ -255,7 +213,7 @@
                             <h4>Founder</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-4 mt-lg-0">
                         <div class="user_profile_card py-5 px-3 text-center">
                             <div class="user_profile_inner_div">
                                 <img src="./assets/images/user.png" alt="">
@@ -265,7 +223,7 @@
                             <h4>Founder</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-4 mt-xl-0">
                         <div class="user_profile_card py-5 px-3 text-center">
                             <div class="user_profile_inner_div">
                                 <img src="./assets/images/girl2.png" alt="">
@@ -275,10 +233,7 @@
                             <h4>Founder</h4>
                         </div>
                     </div>
-                </div>
-
-                <div class="row pt-1 pb-5 ">
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-4">
                         <div class="user_profile_card py-5 px-3 text-center">
                             <div class="user_profile_inner_div">
                                 <img src="./assets/images/Ellipse 115.png" alt="">
@@ -288,7 +243,7 @@
                             <h4>Founder</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-4">
                         <div class="user_profile_card py-5 px-3 text-center">
                             <div class="user_profile_inner_div">
                                 <img src="./assets/images/girl.png" alt="">
@@ -298,7 +253,7 @@
                             <h4>Founder</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-4">
                         <div class="user_profile_card py-5 px-3 text-center">
                             <div class="user_profile_inner_div">
                                 <img src="./assets/images/user.png" alt="">
@@ -308,7 +263,7 @@
                             <h4>Founder</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-4">
                         <div class="user_profile_card py-5 px-3 text-center">
                             <div class="user_profile_inner_div">
                                 <img src="./assets/images/girl2.png" alt="">
@@ -325,15 +280,16 @@
 
         <section class=" side_padding ">
 
-            <div class="container-fluid py-4">
-                <div class="row">
+            <div class="container-fluid py-0 py-md-5 whyCh_we_div">
+                <div class="row text-center text-md-start">
                     <div class="col-12 col-sm-12 col-md-6 pe-5">
                         <h1 class="is-heading1 is-darkSm is-fw-500">Why choosing BonAmi the smart
                             <br>
                             idea?
                         </h1>
 
-                        <p class="is-tex1 mt-4 ">Why settle for anything less when Bonami offers you an endless sky of
+                        <p class="is-tex1 mt-4 ">Why settle for anything less when Bonami offers you an
+                            endless sky of
                             possibilities? We, at Bonami, recognise the need of striking a balance between personal and
                             professional life in order to achieve an individual’s full potential. Our International
                             exposures mould our employees’ skills and provide them with an educational and interactive
@@ -342,10 +298,10 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-6 ps-5">
+                    <div class="col-12 col-sm-12 col-md-6 ps-0 ps-md-5">
                         <h1 class="is-heading1 is-darkSm is-fw-500">Our Team Skills</h1>
 
-                        <div class="rating pt-5  mt-5">
+                        <div class="rating pt-2 pt-md-5  mt-2 mt-xxl-5">
                             <div class="py-2">
                                 <div class="progress">
                                     <div class="progress_path" style="width: 90%">
@@ -369,7 +325,7 @@
                                 </p>
                             </div>
 
-                            <div class="py-2 mt-4">
+                            <div class="py-2 mt-0 mt-md-4">
                                 <div class="progress">
                                     <div class="progress_path" style="width: 80%">
                                         <div class="progress-value">
@@ -392,7 +348,7 @@
                                 </p>
                             </div>
 
-                            <div class="py-2 mt-4">
+                            <div class="py-2 mt-0 mt-md-4">
                                 <div class="progress">
                                     <div class="progress_path" style="width: 90%">
                                         <div class="progress-value">
@@ -415,7 +371,7 @@
                                 </p>
                             </div>
 
-                            <div class="py-2 mt-4">
+                            <div class="py-2 mt-0 mt-md-4">
                                 <div class="progress">
                                     <div class="progress_path" style="width: 55%">
                                         <div class="progress-value">
@@ -438,31 +394,28 @@
                                 </p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
 
             </div>
             </div>
-
-
         </section>
 
         <!-- Wellcome to Virtu Company -->
         <section class="virtu_compnay side_padding ">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <img src="./assets/images/arrow-bg.png" class="img-fluid" alt="">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center text-lg-start">
+                        <img src=" ./assets/images/arrow-bg.png" class="img-fluid mt-4 mt-md-0" alt="">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-5 mt-lg-0">
                         <h1>A GREAT TEAM FOR YOU</h1>
                         <img src="./assets/images/line.png" class="img-fluid" alt="">
 
-                        <h3 class="mt-3">Approach Our Team Has Adopted for the Long Run of Your Project</h3>
+                        <h3 class="mt-3 heading_sm">Approach Our Team Has Adopted for the Long Run of Your Project</h3>
 
-                        <p class="mt-4 ">Phasellus odio dolor, tincidunt sed rutrum at, condimentum ac ipsum. Nullam
+                        <p class="mt-4 mb-4">Phasellus odio dolor, tincidunt sed rutrum at, condimentum ac
+                            ipsum. Nullam
                             congue pretium nisl. Curabitur at sem et leo dictum pretium. </p>
 
                         <div class="compnay_icons_div py-3 my-3">
@@ -480,7 +433,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-sm-12 col-md-4">
+                                <div class="col-12 col-sm-12 col-md-4 my-4 my-md-0">
                                     <div class="service_card_div py-4 px-3 d-block text-center">
                                         <div class="d-flex align-items-center justify-content-center">
                                             <div class="service_icon_div">
@@ -512,21 +465,18 @@
         </section>
         <!-- Wellcome to Virtu Company -->
 
-
-
         <!-- always ready to help you -->
-
-        <section class=" py-5 mb-3">
+        <section class="always_ready_section py-5 mb-3">
             <div class="container-fluid  ready side_padding ">
                 <div class="row py-5 px-3  ">
-                    <div class="col-12 col-sm-12 col-md-6">
+                    <div class="col-12 col-sm-12 col-md-6 text-center text-md-start">
                         <h5 class="mb-0 is-blue-gredient is-fw-500 is-tex2">ALWAYS READY TO HELP YOU</h5>
 
                         <h3 class="mb-0  is-fw-600 mt-4 is-tex1">See what we can do. Get in Touch</h3>
 
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-
+                    <div
+                        class="col-12 col-sm-12 col-md-6 d-flex align-items-center justify-content-center mt-4 mt-md-0">
                         <div>
                             <button class="nav_button px-5 ms-4">Talk to us</button>
                         </div>
@@ -538,15 +488,17 @@
 
         <!-- newsletter -->
         <section class="newsletter side_padding">
-            <div class="container-fluid py-5">
+            <div class="container-fluid py-2 py-md-5">
                 <div class="row py-5 px-3">
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <h1 class="mb-0">Subscribe our newsletter & get <br> updates</h1>
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 align-items-center text-center text-lg-start mb-4 mb-lg-0">
+                        <h1 class="mb-0">Subscribe our newsletter & get updates</h1>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 d-flex align-items-center justify-content-center form_newsLetter_div">
                         <input type="email" placeholder="Your Email Address">
                         <div>
-                            <button class="nav_button px-5 ms-4">Subscribe</button>
+                            <button class="nav_button px-5 ms-2 ms-xl-4 mt-4 mt-md-0">Get Start</button>
                         </div>
                     </div>
                 </div>
@@ -560,16 +512,17 @@
     <!-- footer -->
     <footer class="margin_footer">
         <div class="side_padding">
-            <div class="container-fluid py-5">
+            <div class="container-fluid pt-5 pb-2 pb-md-5">
                 <div class="row mb-5 mt-5">
                     <div class="col-12 col-sm-12 col-md-3 footer_first">
                         <img src="./assets/images/log1.png" class="img-fluid w-50" alt="">
 
-                        <p class="mt-4">It is a long established fact that a reader will be distract by readable content
+                        <p class="mt-4">It is a long established fact that a reader will be distract by
+                            readable content
                             of a page
                             when looking at its layout the point.</p>
 
-                        <div class="mt-5 d-flex align-items-center">
+                        <div class="mt-2 mt-md-5 d-flex align-items-center">
                             <div>
                                 <img src="./assets/images/footer-call.png" class="img-fluid" alt="">
                             </div>
@@ -581,10 +534,10 @@
 
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-1"></div>
-                    <div class="col-12 col-sm-12 col-md-4 foote_second">
-                        <h3>Contact us</h3>
-                        <img src="./assets/images/blue_line.png" class="mb-5" alt="">
+                    <div class="col-12 col-sm-12 col-md-1 mb-3 mb-md-0"></div>
+                    <div class="col-12 col-sm-6 col-md-4 foote_second">
+                        <h3 class="mt-3 mt-md-0">Contact us</h3>
+                        <img src="./assets/images/blue_line.png" class="mb-4 mb-md-5" alt="">
 
                         <div class="foote_icons_div">
                             <div class="d-flex align-items-center">
@@ -594,7 +547,7 @@
                             <h5 class="mt-3 text-white">246 Old York Rd, NY 08505</h5>
                         </div>
 
-                        <div class="foote_icons_div mt-5">
+                        <div class="foote_icons_div mt-4 mt-md-5">
                             <div class="d-flex align-items-center">
                                 <img src="./assets/icons/msg_icon.svg" alt="">
                                 <p class="text-white mb-0 ms-3">Mail us</p>
@@ -602,7 +555,7 @@
                             <h5 class="mt-3 text-white">demo@gmail.com</h5>
                         </div>
 
-                        <div class="foote_icons_div mt-5">
+                        <div class="foote_icons_div mt-4 mt-md-5">
                             <div class="d-flex align-items-center">
                                 <img src="./assets/icons/clock 1.svg" alt="">
                                 <p class="text-white mb-0 ms-3">Opening Time</p>
@@ -610,11 +563,11 @@
                             <h5 class="mt-3 text-white">9.00 to 7.00 (Mon_Sat)</h5>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 foote_second">
+                    <div class="col-12 col-sm-6 col-md-4 foote_second mt-4 mt-md-0">
                         <h3>We are Social</h3>
-                        <img src="./assets/images/blue_line.png" class="mb-5" alt="">
+                        <img src="./assets/images/blue_line.png" class="mb-2 mb-md-5" alt="">
 
-                        <ul class="mt-4">
+                        <ul class="mt-2 mt-md-4">
                             <li>
                                 <a href="#">
                                     About Company</a>

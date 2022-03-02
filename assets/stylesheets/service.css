@@ -49,6 +49,9 @@
 /* BEST PLACE TO WORK */
 
 /* CARRY ON PLANNING */
+.carry_on {
+   padding-bottom: 3rem;
+}
 .carry_inside_div {
    width: 100%;
    border-radius: 8px;
