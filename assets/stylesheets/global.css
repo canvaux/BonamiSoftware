@@ -12,7 +12,7 @@ html,
 body {
    /* font-family: 'Nunito', sans-serif; */
    font-family: 'Jost', sans-serif;
-   overflow-x: hidden;;
+   overflow-x: hidden;
 }
 /* Reset */
 
@@ -63,6 +63,10 @@ body {
 
 .banner_padding {
    padding: 300px 0;
+}
+
+.card_padding {
+   padding: 0 150px;
 }
 
 /* Global Classes */

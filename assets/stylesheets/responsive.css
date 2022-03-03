@@ -316,6 +316,12 @@
       width: 130px;
       height: 130px;
    }
+   .card_padding {
+      padding: 0;
+   }
+   .input_text_div {
+      height: 95px !important;
+   }
 }
 
 @media (max-width: 730px) {
