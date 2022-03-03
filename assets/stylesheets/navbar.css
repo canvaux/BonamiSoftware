@@ -9,6 +9,7 @@
 .navbar_div .nav-item a {
    color: var(--dark);
    font-weight: 500;
+   font-size: 17px;
 }
 .navbar_div .nav-item {
    padding: 0 0.6rem;

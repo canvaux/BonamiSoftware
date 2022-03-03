@@ -1,9 +1,11 @@
 .about_ban_div h1 {
    color: var(--mainColor);
+   font-weight: 500;
 }
 
 .about_ban_div span {
    color: var(--lightBlue);
+   font-weight: 500;
 }
 
 .about_banner {

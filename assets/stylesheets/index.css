@@ -60,8 +60,18 @@
 }
 
 .cards_div p {
-   font-size: 13px;
+   font-size: 17px;
    line-height: 20px;
+}
+
+.cards_div:hover {
+   color: var(--mainColor);
+   background-color: var(--lightBlue);
+}
+
+.cards_div:hover h3 {
+   color: var(--mainColor);
+   background-color: var(--lightBlue);
 }
 
 .line_div {
@@ -70,10 +80,7 @@
    margin: auto;
 }
 
-.card_active {
-   background-color: var(--lightBlue);
-}
-.card_active p {
+/* .card_active p {
    color: var(--mainColor);
 }
 .card_active h3 {
@@ -81,7 +88,7 @@
 }
 .card_active .line_div {
    border: 2px solid var(--mainColor);
-}
+} */
 
 .cards_section .row {
    padding: 50px 0;
@@ -393,6 +400,11 @@
 }
 .contact_form_div span {
    font-size: 0.9rem;
+}
+
+.contact_form_content_div img {
+   width: auto;
+   height: 40px;
 }
 /* Why BonAmi ?  */
 
