@@ -88,17 +88,17 @@
 }
 
 .accordion-body p {
-   font-size: 0.9rem;
+   font-size: 1.1rem;
    color: var(--lightGraySm);
 }
 
 .accordion-body h3 {
-   font-size: 1rem;
+   font-size: 1.2rem;
 }
 
 .accordion-body ul li {
    color: var(--lightGraySm);
-   font-size: 0.8rem;
+   font-size: 1.1rem;
 }
 
 .accordion-button::after {

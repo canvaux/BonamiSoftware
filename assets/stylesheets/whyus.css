@@ -25,6 +25,8 @@
 
 .why-row .cards_div {
    box-shadow: unset;
+   -webkit-box-shadow: 1px 7px 14px -2px rgba(199, 199, 199, 0.75);
+   -moz-box-shadow: 1px 7px 14px -2px rgba(189, 189, 189, 0.75);
 }
 
 /* SOFTWARE RE INFLICTING MAGIC */

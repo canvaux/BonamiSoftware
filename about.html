@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Stylesheet Link -->
     <link rel="stylesheet" href="./assets/stylesheets/index.css">
     <link rel="stylesheet" href="./assets/stylesheets/navbar.css">
@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="./assets/stylesheets/footer.css">
     <link rel="stylesheet" href="./assets/stylesheets/about.css">
     <link rel="stylesheet" href="./assets/stylesheets/responsive.css">
-
     <!-- Slider CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -206,7 +205,7 @@
         <!-- slider section -->
 
         <!-- AN EXCELLENT WORKPLACE -->
-        <section class="virtu_compnay an_excellent_work side_padding mt-xl-4 mt-0">
+        <section class="virtu_compnay an_excellent_work side_padding mt-xl-4 mt-0" data-aos="fade-up">
             <div class="container-fluid">
                 <div class="row align-items-center pt-5 pb-0 py-xl-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center text-md-start">
@@ -236,7 +235,7 @@
         <!-- AN EXCELLENT WORKPLACE -->
 
         <!-- YOUR TRUST, OUR FOUNDATION. -->
-        <section class="your_trust side_padding">
+        <section class="your_trust side_padding" data-aos="fade-up">
             <div class="container-fluid pt-5 pb-0 py-lg-5">
                 <div class="row">
                     <div class="col-12 text-center service_heading_div">
@@ -315,7 +314,7 @@
 
 
         <!-- What our customers say about -->
-        <section class="what_out_customers side_padding">
+        <section class="what_out_customers side_padding" data-aos="fade-up">
             <div class="container-fluid py-5">
                 <div class="row text-center">
                     <div class="col-12">
@@ -420,7 +419,7 @@
         <!-- What our customers say about -->
 
         <!-- BLOG & UPDATES -->
-        <section class="meet_out_team update_blog_div side_padding">
+        <section class="meet_out_team update_blog_div side_padding" data-aos="fade-up">
             <div class="meet_inner"></div>
             <div class="container-fluid py-5">
                 <div class="row">
@@ -640,7 +639,7 @@
                         <h3>We are Social</h3>
                         <img src="./assets/images/blue_line.png" class="mb-2 mb-md-5" alt="">
 
-                        <ul class="mt-2 mt-md-4">
+                        <ul class="mt-2 mt-md-4 p-0">
                             <li>
                                 <a href="#">
                                     About Company</a>
@@ -660,11 +659,11 @@
                             </li>
                         </ul>
 
-                        <div class="mt-4">
-                            <img src="./assets/images/icons/Group 1.png" class="img-fluid me-3" alt="">
-                            <img src="./assets/images/icons/Group 2.png" class="img-fluid me-3" alt="">
-                            <img src="./assets/images/icons/Group 3.png" class="img-fluid me-3" alt="">
-                            <img src="./assets/images/icons/Group 4.png" class="img-fluid me-3" alt="">
+                        <div class="mt-4 footer_icons_div">
+                            <img src="./assets/images/icons/Group 1.png" class="img-fluid me-3 " alt="">
+                            <img src="./assets/images/icons/Group 2.png" class="img-fluid me-3  " alt="">
+                            <img src="./assets/images/icons/Group 3.png" class="img-fluid me-3 " alt="">
+                            <img src="./assets/images/icons/Group 4.png" class="img-fluid me-3 " alt="">
                         </div>
                     </div>
                 </div>
@@ -686,7 +685,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
@@ -694,6 +693,7 @@
     <script src="./js/home.js"></script>
 
     <script>
+        AOS.init();
         $('.slider1').slick({
             dots: false,
             infinite: true,

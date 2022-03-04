@@ -75,11 +75,11 @@ body {
 .arrow_icon_div {
    width: 50px;
    height: 50px;
-   background-color: #e1e1e1;
    border-radius: 50%;
    display: flex;
    justify-content: center;
    align-items: center;
+   border: 1px solid #e1e1e1;
 }
 
 /* font */
@@ -120,10 +120,10 @@ body {
 .align-center {
    align-items: center;
 }
-body {
+/* body {
    background-image: url(../images/bubbls.png);
    background-position: center;
    background-size: cover;
    transition: all 0.5s ease-out;
-}
+} */
 /* end */

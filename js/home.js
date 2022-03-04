@@ -3,21 +3,53 @@
 const serviceCardDiv = document.querySelectorAll('.service_card_div');
 const bubbles = document.querySelector('.bubbles');
 
-let width = 80;
-let height = 80;
-let count = 20;
+// const dbbtn = document.querySelector('.dbbtn');
 
-const changeBubbleAnimation = function () {
-   const elm = document.body;
-
-   window.addEventListener('scroll', function () {
-      let scrolllY = this.scrollY;
-      elm.style.backgroundPositionX = 0;
-      elm.style.backgroundPositionY = `${scrolllY / 10}px`;
+// remove all card classes
+const removeClasses = function () {
+   serviceCardDiv.forEach((el) => {
+      el.classList.remove('service_card_active');
    });
 };
 
-changeBubbleAnimation();
+serviceCardDiv.forEach((el) => {
+   el.addEventListener('click', function () {
+      removeClasses();
+      this.classList.add('service_card_active');
+   });
+});
+
+// let width = 80;
+// let height = 80;
+// let count = 20;
+
+// const alertFucntion = function () {
+//    console.log('hello');
+// };
+
+// let timer;
+// const dbfunction = function (fn, delay) {
+//    return function () {
+//       clearInterval(timer);
+//       timer = setInterval(() => {
+//          fn.apply(arguments, this);
+//       }, delay);
+//    };
+// };
+
+// dbbtn.addEventListener('click', dbfunction(alertFucntion, 2000));
+
+// const changeBubbleAnimation = function () {
+//    const elm = document.body;
+
+//    window.addEventListener('scroll', function () {
+//       let scrolllY = this.scrollY;
+//       elm.style.backgroundPositionX = 0;
+//       elm.style.backgroundPositionY = `${scrolllY / 10}px`;
+//    });
+// };
+
+// changeBubbleAnimation();
 
 // console.log(document.body.scrollHeight);
 
@@ -36,17 +68,3 @@ changeBubbleAnimation();
 
 //    bubbles.append(elem);
 // }
-
-// remove all card classes
-const removeClasses = function () {
-   serviceCardDiv.forEach((el) => {
-      el.classList.remove('service_card_active');
-   });
-};
-
-serviceCardDiv.forEach((el) => {
-   el.addEventListener('click', function () {
-      removeClasses();
-      this.classList.add('service_card_active');
-   });
-});
