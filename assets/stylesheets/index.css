@@ -61,7 +61,7 @@
 
 .cards_div p {
    font-size: 17px;
-   line-height: 20px;
+   line-height: 25px;
 }
 
 .cards_div:hover {
@@ -110,7 +110,17 @@
    bottom: -50px;
    left: 50%;
    transform: translate(-50%);
+   opacity: 0;
 }
+
+.cards_div:hover .arrow_div {
+   opacity: 1;
+}
+
+.cards_div:hover .line_div {
+   border: 2px solid #fff;
+}
+
 /* banner_section */
 
 /* Wellcome to Virtu Company */
@@ -244,7 +254,7 @@
 
 /* About Us Company */
 .aboutUs_call_div p {
-   font-size: 0.9rem;
+   font-size: 1.2rem;
 }
 .aboutUs_call_div h5 {
    font-size: 1.5rem;

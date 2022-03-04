@@ -120,4 +120,10 @@ body {
 .align-center {
    align-items: center;
 }
+body {
+   background-image: url(../images/bubbls.png);
+   background-position: center;
+   background-size: cover;
+   transition: all 0.5s ease-out;
+}
 /* end */
